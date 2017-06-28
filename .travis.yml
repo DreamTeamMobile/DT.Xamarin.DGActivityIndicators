@@ -1,0 +1,23 @@
+language: objective-c
+os: osx
+
+env: 
+  global: 
+    - Configuration=Release
+    - LIB_VERSION=1.2
+    - NUGET_VERSION=1.2-beta1
+    
+    
+cache:
+  directories:
+    - downloads
+
+install: 
+  - ./build-scripts/changeversion.sh ${LIB_VERSION} ${NUGET_VERSION}
+
+script: 
+  - ./build.sh --target Default-Mac --configuration ${Configuration} 
+
+after_script:
+  - ./build-scripts/pack.sh
+  - ./build-scripts/upload.sh ${NUGET_VERSION} ${NUGET_API_KEY}

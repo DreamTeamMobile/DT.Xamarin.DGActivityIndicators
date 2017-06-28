@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DT.Xamarin.DGActivityIndicatorView</id>
+    <title>Xamarin bindings to the native DGActivityIndicatorView.</title>
+    <version>1.1</version>
+    <authors>dreamteammobile</authors>
+    <owners>dreamteammobile</owners>
+    <projectUrl>https://github.com/ninjaprox/DGActivityIndicatorView</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin bindings to the native DGActivityIndicatorView, which is a great way to make loading spinners in your application look nicer. It contains 6 different indicator view styles. Inspired by: http://connoratherton.com/loaders</description>
+    <summary>DGActivityIndicatorView is a great and fast way to make loading spinners in your app</summary>
+    <tags>DGActivityIndicatorView DGActivityIndicators animation loading indicators Xamarin iOS Xamarin.iOS MonoTouch Binding DreamTeam DreamTeamMobile</tags>
+    <releaseNotes>
+       https://github.com/ninjaprox/DGActivityIndicatorView
+       added all platforms, Unified only, added 7.1 support
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="lib/Xamarin.iOS10/*.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>

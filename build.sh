@@ -1,0 +1,1 @@
+xbuild DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView.sln /p:Configuration=Release
