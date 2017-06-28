@@ -3,7 +3,6 @@
 #
 # Download and install Mono and Xamarin.iOS
 #
-sudo apt-get install mono-complete
 echo Download and install Mono and Xamarin.iOS
 wget -nc -P downloads "https://download.mono-project.com/archive/5.0.1/macos-10-universal/MonoFramework-MDK-5.0.1.1.macos10.xamarin.universal.pkg"
 sudo installer -pkg "downloads/MonoFramework-MDK-5.0.1.1.macos10.xamarin.universal.pkg" -target / 

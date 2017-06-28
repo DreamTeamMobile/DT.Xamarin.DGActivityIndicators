@@ -1,3 +1,5 @@
+#!/bin/bash
+
 LibVersion="DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView/Properties/AssemblyInfo.cs"
 NugetVersion="Nugets/DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView.nuspec"
 
