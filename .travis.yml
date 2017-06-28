@@ -18,7 +18,7 @@ install:
   - ./build-scripts/changeversion.sh ${LIB_VERSION} ${NUGET_VERSION}
 
 script: 
-  - xbuild DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView.sln /p:Configuration=Release
+  - msbuild DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView/DT.Xamarin.DGActivityIndicatorView.sln /p:Configuration=Release
 
 after_script:
   - ./build-scripts/pack.sh
